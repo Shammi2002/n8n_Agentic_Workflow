@@ -1,13 +1,11 @@
-# n8n_workflows
-#### This repository contains n8n workflows i worked on
----------------------------------------------------------------
-Built a Multi-Tool AI agentic workflow using n8n !
+
+## Built a Multi-Tool AI agentic workflow using n8n !
 
 
 
 https://github.com/user-attachments/assets/53b1780f-5773-47b0-9d4b-6ea0a3aafc5e
 
-
+<img width="1919" height="1033" alt="hosted chat" src="https://github.com/user-attachments/assets/14b03fb6-082b-451a-9abb-91ceaaf1d748" />
 
 A chatbot answers from training knowledge alone — no tools involved. A RAG bot adds a single retrieval step in front of the LLM. An agentic system is different: it has multiple distinct tools, each scoped to a specific task, and the LLM itself decides which one to call based on the question being asked.
 That's the distinction I built around here. Instead of one large RAG pipeline handling every query the same way, I gave the agent multiple specialized tools and let it reason about which one to invoke for a given request — semantic search for open-ended questions, structured SQL lookups for precise numeric data, each tool scoped to exactly one job
